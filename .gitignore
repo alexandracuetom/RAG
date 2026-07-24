@@ -1,10 +1,34 @@
+# Virtual environment
 .venv/
+venv/
+
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.DS_Store
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables
 .env
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+*.log
+*.tmp
+
+# Uploaded pdfs and test files
+uploads/
 *.pdf
 *.mp3
 *.wav
+
+# Qdrant local data
+qdrant_storage/collections/
+qdrant_storage/aliases/
+qdrant_storage/raft_state.json

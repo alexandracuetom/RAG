@@ -1,6 +1,14 @@
 # Virtual environment
+bin/
+etc/
+include/
+lib/
+share/
+pyvenv.cfg
+
 .venv/
 venv/
+env/
 
 # Python
 __pycache__/

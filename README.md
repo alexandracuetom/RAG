@@ -30,7 +30,6 @@ This project is a great but simple way of getting started with RAG and can be mo
 
 #### Example response
 ## Example Response
-![RAG Question Example](assets/question_rag.png)
 ![RAG Answer Example](assets/answer_rag.png)
 
 ### 4. Project Structure

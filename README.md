@@ -28,7 +28,6 @@ This project is a great but simple way of getting started with RAG and can be mo
 4. The application retrieves the most relevant chunks and generates an answer using Groq.
 
 
-#### Example response
 ## Example Response
 ![RAG Answer Example](assets/answer_rag.png)
 

@@ -70,15 +70,10 @@ async def rag_query_pdf_ai(ctx: inngest.Context):
         if hasattr(query_vec, "tolist"):
             query_vec = query_vec.tolist()
         
-        print("Dimensión de la consulta:", len(query_vec))
-        
+       
         store = QdrantStorage()
 
         found = store.search(query_vec, top_k)
-
-        print("Resultado de search:", found)
-        print("Contexts encontrados:", found.get("contexts", []))
-        print("Sources encontrados:", found.get("sources", []))
         
         return RAGSearchResult(contexts=found["contexts"], sources=found["sources"])
     
